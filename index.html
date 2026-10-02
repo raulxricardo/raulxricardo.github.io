@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Developer Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Inter Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav>
+        <div class="logo">
+            <a href="#home"><strong>R.</strong></a>
+        </div>
+        <div class="nav-links">
+            <a href="#home" data-i18n="nav.home">Home</a>
+            <a href="#about" data-i18n="nav.about">About Me</a>
+            <a href="#socials" data-i18n="nav.socials">Socials</a>
+            <!-- Link this to your actual LinkedIn URL -->
+            <a href="https://linkedin.com/in/your-profile" target="_blank" rel="noopener noreferrer" class="cv-link" data-i18n="nav.cv">My CV (LinkedIn)</a>
+            <button id="langToggle" class="lang-toggle">ES</button>
+        </div>
+    </nav>
+
+    <main>
+        <section id="home">
+            <p data-i18n="hero.greeting">Hi, I'm</p>
+            <h1 data-i18n="hero.name">Raul</h1>
+            <h2 data-i18n="hero.title">Software Developer</h2>
+            <p data-i18n="hero.subtitle">Building minimal, functional, and beautiful web experiences.</p>
+        </section>
+
+        <section id="about">
+            <h2 data-i18n="about.title">About Me</h2>
+            <p data-i18n="about.text1">I am a passionate software developer who loves turning ideas into code. I focus on creating clean, efficient, and user-friendly applications.</p>
+            <p data-i18n="about.text2">When I'm not coding, you can usually find me exploring new technologies, drinking coffee, or working on my next personal project.</p>
+        </section>
+
+        <section id="socials">
+            <h2 data-i18n="socials.title">Connect with me</h2>
+            <ul class="social-list">
+                <li><a href="https://github.com/raulxricardo" target="_blank" rel="noopener noreferrer">↗ <span data-i18n="socials.github">GitHub</span></a></li>
+                <li><a href="https://twitter.com/your-handle" target="_blank" rel="noopener noreferrer">↗ <span data-i18n="socials.twitter">X (Twitter)</span></a></li>
+                <li><a href="https://linkedin.com/in/your-profile" target="_blank" rel="noopener noreferrer">↗ <span data-i18n="socials.linkedin">LinkedIn</span></a></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p><span data-i18n="footer.text">Built with minimalism in mind.</span> &copy; <span id="year"></span></p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,18 @@
+{
+  "nav.home": "Inicio",
+  "nav.about": "Sobre Mí",
+  "nav.socials": "Redes",
+  "nav.cv": "Mi CV (LinkedIn)",
+  "hero.greeting": "Hola, soy",
+  "hero.name": "Raul",
+  "hero.title": "Desarrollador de Software",
+  "hero.subtitle": "Construyendo experiencias web minimalistas, funcionales y hermosas.",
+  "about.title": "Sobre Mí",
+  "about.text1": "Soy un apasionado desarrollador de software que ama convertir ideas en código. Me enfoco en crear aplicaciones limpias, eficientes y fáciles de usar.",
+  "about.text2": "Cuando no estoy programando, normalmente puedes encontrarme explorando nuevas tecnologías, tomando café o trabajando en mi próximo proyecto personal.",
+  "socials.title": "Conecta conmigo",
+  "socials.github": "GitHub",
+  "socials.twitter": "X (Twitter)",
+  "socials.linkedin": "LinkedIn",
+  "footer.text": "Construido con el minimalismo en mente."
+}

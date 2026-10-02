@@ -1,0 +1,18 @@
+{
+  "nav.home": "Home",
+  "nav.about": "About Me",
+  "nav.socials": "Socials",
+  "nav.cv": "My CV (LinkedIn)",
+  "hero.greeting": "Hi, I'm",
+  "hero.name": "Raul",
+  "hero.title": "Software Developer",
+  "hero.subtitle": "Building minimal, functional, and beautiful web experiences.",
+  "about.title": "About Me",
+  "about.text1": "I am a passionate software developer who loves turning ideas into code. I focus on creating clean, efficient, and user-friendly applications.",
+  "about.text2": "When I'm not coding, you can usually find me exploring new technologies, drinking coffee, or working on my next personal project.",
+  "socials.title": "Connect with me",
+  "socials.github": "GitHub",
+  "socials.twitter": "X (Twitter)",
+  "socials.linkedin": "LinkedIn",
+  "footer.text": "Built with minimalism in mind."
+}
