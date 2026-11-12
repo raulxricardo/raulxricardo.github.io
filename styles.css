@@ -329,14 +329,12 @@ body {
   width: 100%;
   max-width: 480px;
   min-height: 90px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  overflow: hidden;
+  box-sizing: border-box;
 }
 
 .ad-section .adsbygoogle {
   display: block;
   width: 100%;
+  min-height: 90px;
 }
 
